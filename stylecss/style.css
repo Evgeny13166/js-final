@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: normal;
+}
+.wrapper li span{
+    cursor: pointer;
+}
+table{
+    width: 300px;
+    margin: 50px 0 0 100px;
+    border-collapse: collapse; 
+}
+th , td{
+    padding: 3px;
+    border: 2px solid black;
+}
+th{
+    background-color: yellow;
+}
+
+.curr{
+    display: flex;
+    height: 20px;
+    width: 70px;
+    margin: 20px;
+}
+button{
+height: 50px;
+width: 200px;
+margin: 20px 0 0 0;
+
+}
